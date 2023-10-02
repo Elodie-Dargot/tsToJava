@@ -1,11 +1,11 @@
 public class Address {
-    private Number number;
+    private String number;
     private String street;
     private String city;
     private String country;
 
-    public Number getNumber() {return this.number;}
-    public void setNumber(Number number) {this.number = number;}
+    public String getNumber() {return this.number;}
+    public void setNumber(String number) {this.number = number;}
 
     public String getStreet() {return this.street;}
     public void setStreet(String street) {this.street = street;}

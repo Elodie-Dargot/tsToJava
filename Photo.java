@@ -1,8 +1,8 @@
 public class Photo {
     private String url;
     private String filename;
-    private Number width;
-    private Number height;
+    private Float width;
+    private Float height;
 
  
 
@@ -12,9 +12,9 @@ public class Photo {
     public String getFilename() {return this.filename;}
     public void setFilename(String filename) {this.filename = filename;}
 
-    public Number getWidth() {return this.width;}
-    public void setWidth(Number width) {this.width = width;}
+    public Float getWidth() {return this.width;}
+    public void setWidth(Float width) {this.width = width;}
 
-    public Number getHeight() {return this.height;}
-    public void setHeight(Number height) {this.height = height;}
+    public Float getHeight() {return this.height;}
+    public void setHeight(Float height) {this.height = height;}
 }
